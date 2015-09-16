@@ -289,6 +289,11 @@ footer .footer-above {
   padding-top: 50px;
   background-color: #343434;
 }
+footer .footer-above img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
 footer .footer-col {
   margin-bottom: 20px;
 }

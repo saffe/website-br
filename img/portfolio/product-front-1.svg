@@ -6,13 +6,15 @@
 <g>
 	<defs>
 		<rect id="SVGID_1_" width="900" height="650"/>
+	</defs>
+	<defs>
 		<style type="text/css">
+			<![CDATA[
 			@font-face {
-  				font-family: 'Lato';
-  				font-style: normal;
-  				font-weight: 700;
-  				src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+				font-family: Lato-Bold;
+				src: url('http://fonts.gstatic.com/s/lato/v11/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff');
 			}
+			]]>
 		</style>
 	</defs>
 	<clipPath id="SVGID_2_">

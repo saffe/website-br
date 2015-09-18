@@ -75,7 +75,7 @@ header img {
   padding-bottom: 15px;
   display: block;
   margin: 0 auto;
-  width: 520px;
+  width: 50%;
 }
 header .intro-text .name {
   display: block;
@@ -166,16 +166,124 @@ section.success a.active {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
+#saffe3 .container {
+  margin: 0px 0px 0px 0px;
 }
-#portfolio .portfolio-item .portfolio-link {
-  background: #e2e2e2;
+#saffe3 .container .saffe-item {
+  margin: 0px 0px 0px 0px;
+}
+#saffe3 .container .saffe-item .saffe-link {
+  background: #d5d5d5;
   display: block;
   position: relative;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0px 0px 0px 0px;
+}
+#saffe3 .container .saffe-item .saffe-link .caption {
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+saffe .saffe-item-11 {
+  padding-top: 10px;
+  background: #d5d5d5;
+}
+saffe .saffe-item-12 {
+  padding-top: 10px;
+  background: white;
+}
+saffe .saffe-item-12 .saffe-link {
+  background: #d5d5d5;
+  display: block;
+  position: relative;
+  max-width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+saffe .saffe-item-12 .saffe-link .caption {
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+saffe .saffe-item-212 {
+  padding-top: 10px;
+  background: white;
+}
+saffe .saffe-item-21 {
+  padding-bottom: 10px;
+  background: white;
+}
+saffe .saffe-item-21 .caption {
+  display: inline-block;
+  z-index: 0;
+  position: relative;
+  vertical-align: middle;
+  vertical-align: baseline;
+  color: #000;
+  margin: 10px 10px 10px 10px;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+}
+saffe .saffe-tmp {
+  margin-top: 7%;
+  margin-bottom: 10%;
+  color: #f00;
+  position: relative;
+}
+.fixOverlayDiv {
+  width: 100%;
+  padding: 0px;
+  position: relative;
+}
+.OverlayText {
+  background-color: #000;
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+}
+.row-height {
+  background: white;
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+#portfolio .container {
+  margin: 0px 0px 0px 0px;
+}
+#portfolio .container .portfolio-item2 {
+  margin: 0px 0px 0px 0px;
+}
+#portfolio .container .portfolio-item2 .portfolio-link {
+  background: #d5d5d5;
+  display: block;
+  position: relative;
+  max-width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+#portfolio .container .portfolio-item2 .portfolio-link .caption {
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+#portfolio .portfolio-item {
+  margin: 0px 0px 0px 0px;
+}
+#portfolio .portfolio-item .portfolio-link {
+  background: #d5d5d5;
+  display: block;
+  position: relative;
+  max-width: 100%;
+  margin: 0px 0px 0px 0px;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(0, 142, 132, 0.9);
@@ -212,7 +320,7 @@ section.success a.active {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    margin: 0 0 0px 0px;
   }
 }
 .btn-outline {
@@ -235,7 +343,7 @@ section.success a.active {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid #d5d5d5;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -268,7 +376,7 @@ section.success a.active {
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
-  border-left: 1px solid #e2e2e2;
+  border-left: 1px solid #d5d5d5;
 }
 .floating-label-form-group-with-value label {
   top: 0;
@@ -278,7 +386,7 @@ section.success a.active {
   color: #008e84;
 }
 form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #e2e2e2;
+  border-top: 1px solid #d5d5d5;
 }
 footer {
   color: white;
@@ -316,6 +424,11 @@ footer .footer-below {
 .btn:active,
 .btn.active {
   outline: none;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 .scroll-top {
   position: fixed;
@@ -355,7 +468,7 @@ footer .footer-below {
   margin-bottom: 50px;
 }
 .portfolio-modal .modal-content img {
-  background: #e2e2e2;
+  background: #d5d5d5;
   margin-bottom: 30px;
 }
 .portfolio-modal .modal-content button {

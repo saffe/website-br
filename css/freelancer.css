@@ -195,6 +195,9 @@ saffe-content .second-row .saffe-item-22 {
   margin-bottom: 10%;
   position: relative;
 }
+svg {
+  overflow: hidden;
+}
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 0px 0px;

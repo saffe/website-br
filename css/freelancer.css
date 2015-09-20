@@ -173,6 +173,7 @@ saffe-content {
 }
 saffe-content .first-row {
   background: #d5d5d5;
+  padding-top: 10px;
   display: table;
   table-layout: fixed;
   height: 100%;

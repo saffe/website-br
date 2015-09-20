@@ -32,7 +32,7 @@ hr.star-light,
 hr.star-primary {
     padding: 0;
     border: none;
-    border-top: solid 5px;
+    border-top: solid 2px;
     text-align: center;
     max-width: 250px;
     margin: 25px auto 30px;
@@ -45,7 +45,7 @@ hr.star-primary:after {
     display: inline-block;
     position: relative;
     top: -0.8em;
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 0 0.25em;
 }
 
@@ -75,12 +75,19 @@ header {
 	text-align: center;
 	background: @brand-success;
 	color: white;
-	img {
-        padding-top: 40px;
-		display: block;
-		margin: 10% auto 5% auto;
-        width: 50%;
-	}
+    .title-row {
+        background: @brand-success; 
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+        img {
+            padding-top: 40px;
+            display: block;
+            margin: 10% auto 5% auto;
+            width: 50%;
+        }
+    }
 	.intro-text {
 		.name {
 			display: block;
@@ -188,193 +195,35 @@ section.success {
 	}
 }
 
-
-#saffe3 {
-    .container {
-        margin: 0px 0px 0px 0px;
-        .saffe-item {
-            margin: 0px 0px 0px 0px;
-            .saffe-link {
-                background: @gray-lighter;
-                display: block;
-                position: relative;
-                max-width: 100%;
-                margin: 0px 0px 0px 0px;
-                .caption {
-                    margin: 10px 10px 10px 10px;
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                    opacity: 1;
-                }
-            }
+saffe-content {
+    color: @brand-primary;
+    .first-row {
+        background: @gray-lighter; 
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+        .saffe-item-11 {
         }
-    }
-}
-
-saffe {
-    .saffe-item-11 {
-        padding-top: 10px;
-        background: @gray-lighter;
-    }
-    .saffe-item-12 {
-        margin-top: 7%;
-        margin-bottom: 10%;
-        background: @gray-lighter;
-        color: @brand-primary;
-        position: relative;
-    }
-    .saffe-item-12-trash {
-        padding-top: 10px;
-        background: white;
-        .saffe-link {
-            background: @gray-lighter;
-            display: block;
+        .saffe-item-12 {
+            margin-top: 7%;
+            margin-bottom: 10%;
             position: relative;
-            max-width: 100%;
-            margin: 0px 0px 0px 0px;
-            .caption {
-                margin: 10px 10px 10px 10px;
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                opacity: 0;
-            }
         }
     }
-    .saffe-item-212 {
-        background: white;
-        text-align: center;
-    }
-    .saffe-item-21 {
-        padding-bottom: 10px;
-        background: white;
-        .caption {
-            display: inline-block;
-            z-index: 0;
+    .second-row {
+        background: white; 
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+        .saffe-item-21 {
+        }
+        .saffe-item-22 {
+            margin-top: 7%;
+            margin-bottom: 10%;
             position: relative;
-            vertical-align: middle;
-            vertical-align: baseline;
-            color: #000;
-            margin: 10px 10px 10px 10px;
-            width: 100%;
-            height: 100%;
-            bottom: 0;
-            }
-    }
-    .saffe-tmp {
-        margin-top: 7%;
-        margin-bottom: 10%;
-        color: #f00;
-        position: relative;
-    }
-}
-
-
-
-.fixOverlayDiv{
-    width:100%; 
-    padding:0px;
-    position: relative;
-}
-.OverlayText{
-    background-color: #000;
-    bottom: 0;
-    color: #fff;
-    left: 0;
-    opacity: 0.5;
-    position: absolute;
-    width: 100%;
-}
-
-.title-row {
-    background: @brand-success; 
-    display: table;
-    table-layout: fixed;
-    height: 100%;
-    width: 100%;
-}
-
-.first-row {
-    background: @gray-lighter; 
-    display: table;
-    table-layout: fixed;
-    height: 100%;
-    width: 100%;
-}
-
-.row-height {
-    background: white; 
-    display: table;
-    table-layout: fixed;
-    height: 100%;
-    width: 100%;
-}
-
-
-#portfolio {
-    .container {
-        margin: 0px 0px 0px 0px;
-        .portfolio-item2 {
-            margin: 0px 0px 0px 0px;
-            .portfolio-link {
-                background: @gray-lighter;
-                display: block;
-                position: relative;
-                max-width: 100%;
-                margin: 0px 0px 0px 0px;
-                .caption {
-                    margin: 10px 10px 10px 10px;
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                    opacity: 1;
-                }
-            }
         }
-    }
-    .portfolio-item {
-        margin: 0px 0px 0px 0px;
-        .portfolio-link {
-            background: @gray-lighter;
-            display: block;
-            position: relative;
-            max-width: 100%;
-            margin: 0px 0px 0px 0px;
-            .caption {
-                background: fade(@brand-success, 90%);
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                opacity: 0;
-                transition: all ease 0.5s;
-                -webkit-transition: all ease 0.5s;
-                -moz-transition: all ease 0.5s;
-                &:hover {
-                    opacity: 1;
-                }
-                .caption-content {
-                    position: absolute;
-                    width: 100%;
-                    height: 20px;
-                    font-size: 20px;
-                    text-align: center;
-                    top: 50%;
-                    margin-top: -12px;
-                    color: white;
-                    i {
-                        margin-top: -12px;
-                    }
-                    h3,
-                    h4 {
-                        margin: 0;
-                    }
-                }
-            }
-        }
-    }
-    * {
-        z-index: 2;
     }
 }
 
@@ -504,9 +353,6 @@ footer {
     display: inline-block;
     vertical-align: middle;
     float: none;
-}
-
-.inside {
 }
 
 .scroll-top {

@@ -66,15 +66,10 @@ header {
   background: #008e84;
   color: white;
 }
-header .container {
-  padding-top: 70px;
-  padding-bottom: 50px;
-}
 header img {
-  padding-top: 25px;
-  padding-bottom: 15px;
+  padding-top: 40px;
   display: block;
-  margin: 0 auto;
+  margin: 10% auto 5% auto;
   width: 50%;
 }
 header .intro-text .name {
@@ -253,6 +248,13 @@ saffe .saffe-tmp {
   left: 0;
   opacity: 0.5;
   position: absolute;
+  width: 100%;
+}
+.title-row {
+  background: #008e84;
+  display: table;
+  table-layout: fixed;
+  height: 100%;
   width: 100%;
 }
 .first-row {

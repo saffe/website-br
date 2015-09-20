@@ -191,17 +191,24 @@ saffe .saffe-item-11 {
   background: #d5d5d5;
 }
 saffe .saffe-item-12 {
+  margin-top: 7%;
+  margin-bottom: 10%;
+  background: #d5d5d5;
+  color: #343434;
+  position: relative;
+}
+saffe .saffe-item-12-trash {
   padding-top: 10px;
   background: white;
 }
-saffe .saffe-item-12 .saffe-link {
+saffe .saffe-item-12-trash .saffe-link {
   background: #d5d5d5;
   display: block;
   position: relative;
   max-width: 100%;
   margin: 0px 0px 0px 0px;
 }
-saffe .saffe-item-12 .saffe-link .caption {
+saffe .saffe-item-12-trash .saffe-link .caption {
   margin: 10px 10px 10px 10px;
   position: absolute;
   width: 100%;
@@ -246,6 +253,13 @@ saffe .saffe-tmp {
   left: 0;
   opacity: 0.5;
   position: absolute;
+  width: 100%;
+}
+.first-row {
+  background: #d5d5d5;
+  display: table;
+  table-layout: fixed;
+  height: 100%;
   width: 100%;
 }
 .row-height {

@@ -180,7 +180,7 @@ saffe-content .first-row {
 }
 saffe-content .first-row .saffe-item-12 {
   margin-top: 7%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   position: relative;
 }
 saffe-content .second-row {
@@ -191,14 +191,24 @@ saffe-content .second-row {
   width: 100%;
 }
 saffe-content .second-row .saffe-item-22 {
-  margin-top: 7%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   position: relative;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 0px 0px;
   }
+}
+.saffe-tap {
+  color: #008e84;
+  background: white;
+  font-weight: bold;
+}
+.saffe-tap2 {
+  color: #db4fec;
+  background: white;
+  font-weight: bold;
 }
 .btn-outline {
   color: white;

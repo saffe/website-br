@@ -294,6 +294,14 @@ footer .footer-above img {
 footer .footer-col {
   margin-bottom: 20px;
 }
+footer .footer-col a,
+footer .footer-col a:hover,
+footer .footer-col a:focus,
+footer .footer-col a:active,
+footer .footer-col a.active {
+  color: white;
+  outline: none;
+}
 footer .footer-below {
   padding: 25px 0;
   background-color: #343434;

@@ -45,11 +45,11 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #343434;
 }
 hr.star-light:after {
-  background-color: #008e84;
-  color: white;
+  background-color: transparent;
+  color: #343434;
 }
 hr.star-primary {
   border-color: #343434;
@@ -142,22 +142,22 @@ header .intro-text .skills {
   border: none;
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
   margin: 0;
   font-size: 3em;
 }
 section.success {
-  background: #008e84;
-  color: white;
+  background: #d5d5d5;
+  color: #343434;
 }
 section.success a,
 section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-  color: #e272f0;
+  color: #008e84;
   outline: none;
   font-weight: bold;
 }
@@ -284,7 +284,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #343434;
+  background-color: #008e84;
 }
 footer .footer-above img {
   display: block;

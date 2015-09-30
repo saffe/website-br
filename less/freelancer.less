@@ -50,12 +50,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: white;
+    border-color: @brand-primary;
 }
 
 hr.star-light:after {
-    background-color: @brand-success;
-    color: white;
+    background-color: transparent;
+    color: @brand-primary;
 }
 
 hr.star-primary {
@@ -165,7 +165,7 @@ header {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
     h2 {
     	margin: 0;
     	font-size: 3em;
@@ -173,14 +173,14 @@ section {
 }
 
 section.success {
-	background: @brand-success;
-	color: white;
+	background: @gray-lighter;
+	color: @brand-primary;
     a,
     a:hover,
     a:focus,
     a:active,
     a.active {
-      color: lighten(@brand-pink, 7.5%);
+      color: @brand-success;
       outline: none;
       font-weight: bold;
     }
@@ -328,7 +328,7 @@ footer {
 	}
 	.footer-above {
 		padding-top: 50px;
-		background-color: @brand-primary;
+		background-color: @brand-success;
         img {
             display: block;
             margin: 0 auto;

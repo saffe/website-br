@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-	color: @brand-success;
+	color: @brand-pink;
 	outline: none;
 }
 
@@ -175,14 +175,14 @@ section {
 section.success {
 	background: @brand-success;
 	color: white;
-
     a,
     a:hover,
     a:focus,
     a:active,
     a.active {
-      color: @brand-primary;
+      color: lighten(@brand-pink, 10.5%);
       outline: none;
+      font-weight: bold;
     }
 }
 
@@ -242,8 +242,8 @@ saffe-content {
 }
 
 .saffe-tap2 {
+    background: transparent;
     color: @brand-pink;
-    background: white;
     font-weight: bold;
 }
 

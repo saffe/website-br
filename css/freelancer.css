@@ -12,7 +12,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #008e84;
+  color: #db4fec;
   outline: none;
 }
 h1,
@@ -157,8 +157,9 @@ section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-  color: #343434;
+  color: #e57ff1;
   outline: none;
+  font-weight: bold;
 }
 @media (max-width: 767px) {
   section {
@@ -206,8 +207,8 @@ saffe-content .second-row .saffe-item-22 {
   font-weight: bold;
 }
 .saffe-tap2 {
+  background: transparent;
   color: #db4fec;
-  background: white;
   font-weight: bold;
 }
 .btn-outline {
